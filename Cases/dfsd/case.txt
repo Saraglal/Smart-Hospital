@@ -1,0 +1,11 @@
+dfsd
+01020684545
+fs
+2000-01-01
+Male
+Dermatological lesions
+No
+No
+0
+/home/0x41ly/Desktop/DL_App/Cases/dfsd/isewtweetbg.png
+malignant

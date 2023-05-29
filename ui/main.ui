@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>680</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Home</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>resources/doctor.png</normaloff>resources/doctor.png</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="new_case">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>120</y>
+      <width>131</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>New case</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>resources/icons8-plus-+-16.png</normaloff>resources/icons8-plus-+-16.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>32</width>
+      <height>32</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="open_case">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>120</y>
+      <width>151</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Open Case</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>resources/icons8-directory-16.png</normaloff>resources/icons8-directory-16.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>100</width>
+      <height>100</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QScrollArea" name="history">
+    <property name="geometry">
+     <rect>
+      <x>-1</x>
+      <y>-1</y>
+      <width>211</width>
+      <height>431</height>
+     </rect>
+    </property>
+    <property name="widgetResizable">
+     <bool>true</bool>
+    </property>
+    <widget class="QWidget" name="scrollAreaWidgetContents">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>209</width>
+       <height>429</height>
+      </rect>
+     </property>
+     <widget class="QScrollBar" name="verticalScrollBar">
+      <property name="geometry">
+       <rect>
+        <x>200</x>
+        <y>40</y>
+        <width>8</width>
+        <height>371</height>
+       </rect>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+     </widget>
+     <widget class="QScrollBar" name="horizontalScrollBar">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>410</y>
+        <width>181</width>
+        <height>8</height>
+       </rect>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+     <widget class="QLabel" name="history_label">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>10</y>
+        <width>66</width>
+        <height>19</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>History:</string>
+      </property>
+     </widget>
+     <widget class="Line" name="line">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>171</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QTextBrowser" name="description">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>280</y>
+      <width>451</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="html">
+     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Cantarell'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600; text-decoration: underline;&quot;&gt;Description&lt;/span&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;:&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Due to the high incidence of skin tumors, the development of computer-aided-diagnosis methods will become a very powerful diagnostic tool for dermatologists. Early detection of skin cancers, including melanoma and non-melanoma skin cancers is crucial.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>680</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu_file">
+    <property name="title">
+     <string>&amp;File</string>
+    </property>
+    <addaction name="actionNew"/>
+    <addaction name="separator"/>
+    <addaction name="actionopen"/>
+    <addaction name="separator"/>
+    <addaction name="separator"/>
+    <addaction name="actionexit"/>
+    <addaction name="separator"/>
+   </widget>
+   <widget class="QMenu" name="menu_Help">
+    <property name="title">
+     <string>&amp;Help</string>
+    </property>
+    <addaction name="actionAbout"/>
+   </widget>
+   <addaction name="menu_file"/>
+   <addaction name="menu_Help"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionopen">
+   <property name="icon">
+    <iconset>
+     <normaloff>resources/icons8-directory-16.png</normaloff>resources/icons8-directory-16.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Open </string>
+   </property>
+   <property name="toolTip">
+    <string>Open an existed case</string>
+   </property>
+   <property name="shortcut">
+    <string>Alt+O</string>
+   </property>
+  </action>
+  <action name="actionNew">
+   <property name="icon">
+    <iconset>
+     <normaloff>resources/icons8-plus-+-16.png</normaloff>resources/icons8-plus-+-16.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;New</string>
+   </property>
+   <property name="toolTip">
+    <string>New case</string>
+   </property>
+   <property name="shortcut">
+    <string>Alt+N</string>
+   </property>
+  </action>
+  <action name="actionexit">
+   <property name="icon">
+    <iconset>
+     <normaloff>resources/icons8-close-30.png</normaloff>resources/icons8-close-30.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Exit </string>
+   </property>
+   <property name="toolTip">
+    <string>Exit</string>
+   </property>
+   <property name="shortcut">
+    <string>Alt+E</string>
+   </property>
+  </action>
+  <action name="actionsave">
+   <property name="icon">
+    <iconset>
+     <normaloff>resources/icons8-save-30.png</normaloff>resources/icons8-save-30.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Save</string>
+   </property>
+   <property name="toolTip">
+    <string>Save</string>
+   </property>
+   <property name="shortcut">
+    <string>Alt+S</string>
+   </property>
+  </action>
+  <action name="actionOpen_all">
+   <property name="text">
+    <string>Open all</string>
+   </property>
+  </action>
+  <action name="actionAbout">
+   <property name="icon">
+    <iconset>
+     <normaloff>resources/icons8-about-30.png</normaloff>resources/icons8-about-30.png</iconset>
+   </property>
+   <property name="text">
+    <string>About</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

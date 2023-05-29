@@ -1,0 +1,11 @@
+sa
+s
+as
+2000-01-01
+Male
+Dermatological lesions
+No
+No
+0
+/home/0x41ly/Desktop/DL_App/Cases/2f3c6dd2ea46e06d4e025f2921850c91/isewtweetbg.png
+classes

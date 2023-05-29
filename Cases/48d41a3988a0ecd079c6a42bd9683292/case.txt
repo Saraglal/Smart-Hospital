@@ -1,0 +1,11 @@
+sdAX
+AS
+SAD
+2000-01-01
+Male
+Dermatological lesions
+No
+No
+0
+/home/0x41ly/Desktop/DL_App/Cases/48d41a3988a0ecd079c6a42bd9683292/isewtweetbg.png
+classes

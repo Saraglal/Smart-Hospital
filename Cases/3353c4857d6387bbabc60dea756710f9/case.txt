@@ -1,0 +1,11 @@
+sdf
+afds
+sdc
+2000-01-01
+Male
+Dermatological lesions
+No
+No
+0
+/home/0x41ly/Desktop/DL_App/Cases/3353c4857d6387bbabc60dea756710f9/file.png
+classes
